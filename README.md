@@ -1,1 +1,8 @@
-# Doodle
+This Doodle program's development environment is Java.
+Compile and run this project simply using run buttom in IntelliJ.
+Or compile on terminal by following command: ./gradlew run
+
+The Doodle program include a menu bar which supports save and load doodles, to create a new doodle, and to exit the program. User will get reminder if try to create a new doodle or load an exist doodle when user already draw something on canvas. In the left of the Doodle program, colourpalette and stroke thickness chooser are included. In total, 8 colours and 3 thicknes is supported, the last colours is a custom colour. The main area is canvas supports drawing, the colour and thickness could be change in the colourpalette and thickness chooser. The default colour is the first colour and the default thickness is 2.0f(first). At the bottom of the program, a playbar include a slider(can be dragged into any position, and canvas shows the doodle respectively),a play button(play animation from current slider position to the end),a playback button(play animation from current slider position to the begin), a start button(goes the start of the animation), and an end button(goes the end of the animation). If user draw anything whe the current slider position is not at the end, the current slider will move to the end and user lost all after the previous.
+Enhancements:
+1. Ability to play animations both forward and backward(a playback button included in playbar, play animation from current position to the begin).
+2. Customizable color palette, as in you can wholly or partially customize color buttons in palette. User can right-click all colour choosers to choose custom color and left-click for using the displayed colour.
